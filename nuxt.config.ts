@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       preload: true,
     }],
     ['@nuxtjs/strapi', {
-      url: process.env.VITE_STRAPI_PUBLIC_URL || 'http://localhost:1337',
+      url: process.env.NUXT_STRAPI_PUBLIC_URL || 'http://localhost:1337',
       version: 'v4',
       cookie: {},
     }],

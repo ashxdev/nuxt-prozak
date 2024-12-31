@@ -12,7 +12,7 @@ useSeoMeta({
     data.value?.post?.attributes?.image?.data?.attributes?.url || null,
   ogType: "website",
   ogSiteName: "PROZAK.INFO",
-  ogUrl: `${import.meta.env.VITE_URL}/${route.params.categorySlug}/${
+  ogUrl: `${import.meta.env.NUXT_URL}/${route.params.categorySlug}/${
     route.params.postSlug
   }`
 })
