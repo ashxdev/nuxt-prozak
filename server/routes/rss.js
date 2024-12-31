@@ -56,7 +56,7 @@ async function getPosts() {
   )
 
   const response = await $fetch(
-    `${process.env.NUXT_STRAPI_PUBLIC_URL}/api/posts?${postsQ}`
+    `${process.env.NUXT_STRAPI_DOCKER_URL}/api/posts?${postsQ}`
   )
   return response.data || []
 }

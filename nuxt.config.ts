@@ -5,6 +5,16 @@ export default defineNuxtConfig({
     asyncContext: true
   },
   pages: true,
+  runtimeConfig: {
+    strapi: {
+      url: process.env.NUXT_STRAPI_DOCKER_URL || 'http://localhost:1337'
+    },
+    public: {
+      strapi: {
+        url: process.env.NUXT_STRAPI_PUBLIC_URL || 'http://localhost:1337'
+      }
+    }
+  },
   modules: [
     ['@nuxtjs/google-fonts', {
       families: {
@@ -15,7 +25,6 @@ export default defineNuxtConfig({
       preload: true,
     }],
     ['@nuxtjs/strapi', {
-      url: process.env.NUXT_STRAPI_PUBLIC_URL || 'http://localhost:1337',
       version: 'v4',
       cookie: {},
     }],
