@@ -32,7 +32,7 @@ const isShowMobileMenu = ref(false)
         aria-label="Toggle navigation"
         aria-controls="navbarCollapse"
         data-bs-target="#navbarCollapse"
-        @click$="() => (isShowMobileMenu = !isShowMobileMenu)"
+        @click="() => (isShowMobileMenu = !isShowMobileMenu)"
       >
         <span class="text-body h6 d-none d-sm-inline-block">Меню</span>
         <span class="navbar-toggler-icon"></span>

@@ -18,7 +18,9 @@ useHead({
           <nav class="d-flex justify-content-center" aria-label="breadcrumb">
             <ol class="breadcrumb breadcrumb-dots mb-0">
               <li class="breadcrumb-item">
-                <a href="/"> <i class="bi bi-house me-1"></i>Головна </a>
+                <NuxtLink href="/">
+                  <i class="bi bi-house me-1"></i>Головна
+                </NuxtLink>
               </li>
               <li class="breadcrumb-item active">Контакти</li>
             </ol>
