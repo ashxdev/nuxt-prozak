@@ -13,11 +13,13 @@ const isShowMobileMenu = ref(false)
     <div class="container">
       <NuxtLink class="navbar-brand" href="/">
         <NuxtImg
+          format="webp"
           class="navbar-brand-item light-mode-item"
           src="/logo.png"
           alt="logo"
         />
         <NuxtImg
+          format="webp"
           class="navbar-brand-item dark-mode-item"
           src="/logo.png"
           alt="logo"

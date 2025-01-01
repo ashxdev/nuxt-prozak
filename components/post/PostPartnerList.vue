@@ -28,6 +28,7 @@ const getImageSrc = (item: PostI) =>
           <div class="row g-3">
             <div class="col-4">
               <NuxtImg
+                format="webp"
                 class="rounded"
                 :src="getImageSrc(item)"
                 :alt="item.attributes.name"

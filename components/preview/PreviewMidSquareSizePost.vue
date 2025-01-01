@@ -26,6 +26,7 @@ const getImageSrc = (item: PostI) =>
   <div class="card">
     <div class="position-relative">
       <NuxtImg
+        format="webp"
         class="card-img"
         :src="getImageSrc(post)"
         :alt="post.attributes?.name"

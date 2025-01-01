@@ -7,6 +7,7 @@ defineProps<{ post: PostI }>()
   <div class="card pe-3">
     <div class="position-relative">
       <NuxtImg
+        format="webp"
         class="card-img"
         alt="Card image"
         :src="post?.attributes?.image?.data?.attributes?.url"

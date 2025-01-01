@@ -10,6 +10,7 @@ const dayjs = useDayjs()
     <div class="row">
       <div class="col-md-5">
         <NuxtImg
+          format="webp"
           class="rounded-3"
           :alt="post?.attributes.name"
           :src="post?.attributes.image?.data?.attributes?.url"

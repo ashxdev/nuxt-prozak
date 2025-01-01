@@ -79,6 +79,7 @@ const fetchPosts = async () => {
                   :href="`/${props.category?.attributes?.slug}/${item.attributes.slug}`"
                 >
                   <NuxtImg
+                    format="webp"
                     style="height: 141px"
                     class="card-img rounded"
                     :src="
