@@ -38,7 +38,7 @@ const dayjs = useDayjs()
           <i class="bi bi-circle-fill me-2 small fw-bold"></i>
           {{ post.attributes?.category?.data?.attributes?.name }}
         </NuxtLink>
-        <h1 class="text-white h1">
+        <h2 class="text-white h4">
           <NuxtLink
             class="btn-link stretched-link text-reset"
             :href="
@@ -50,7 +50,7 @@ const dayjs = useDayjs()
           >
             {{ props.post.attributes.name }}
           </NuxtLink>
-        </h1>
+        </h2>
         <p class="text-white">{{ post.attributes.short_description }}</p>
         <ul
           class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block"

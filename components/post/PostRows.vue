@@ -14,7 +14,7 @@ defineProps<{
           <div
             class="mb-4 d-md-flex justify-content-between align-items-center"
           >
-            <h2 class="m-0">
+            <h2 class="m-0 h4">
               <i class="bi bi-megaphone"></i>&nbsp; {{ title }}
             </h2>
             <NuxtLink :href="categorySlug" class="text-body small">

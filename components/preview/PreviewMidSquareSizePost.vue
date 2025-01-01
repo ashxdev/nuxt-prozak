@@ -45,14 +45,14 @@ const getImageSrc = (item: PostI) =>
       </div>
     </div>
     <div class="card-body px-0 pt-3">
-      <h4 class="card-title">
+      <h2 class="card-title h5">
         <a
           class="btn-link text-reset fw-bold"
           :href="'/' + categorySlug + '/' + post?.attributes.slug"
         >
           {{ post.attributes.name }}
         </a>
-      </h4>
+      </h2>
       <p class="card-text">
         {{
           post.attributes.short_description

@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const dayjs = useDayjs()
 const isDarkTheme = ref(false)
+const currentTime = ref("")
+onMounted(() => {
+  currentTime.value = dayjs().format(" DD MMMM YYYY, H:mm")
+})
 
 const changeZooming = (fontSize: string) => {
   const doc = document.documentElement
@@ -139,7 +143,7 @@ const changeThemeMode = () => {
             </li>
           </ul>
 
-          <div class="ms-2">{{ dayjs().format(" DD MMMM YYYY, H:mm") }}</div>
+          <div class="ms-2">{{ currentTime }}</div>
         </div>
       </div>
       <div class="border-bottom border-2 border-primary opacity-1"></div>

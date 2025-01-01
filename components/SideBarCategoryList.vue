@@ -7,7 +7,7 @@ const { getPostStyle } = usePostStyle()
 </script>
 <template>
   <div>
-    <h4 class="mt-4 mb-3">Популярні категорії</h4>
+    <h2 class="mt-4 mb-3 h4">Популярні категорії</h2>
     <template v-for="item in categories" :key="item.id">
       <div
         class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded bg-dark-overlay-4"

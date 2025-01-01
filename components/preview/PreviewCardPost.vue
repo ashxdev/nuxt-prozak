@@ -39,7 +39,7 @@ const dayjs = useDayjs()
             {{ dayjs(post?.attributes.publish_date).format("H:mm | DD MMMM ") }}
           </span>
         </div>
-        <h3>
+        <h3 class="h5">
           <NuxtLink
             class="btn-link stretched-link text-reset"
             :href="

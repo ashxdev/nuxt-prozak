@@ -36,7 +36,7 @@ defineProps<{ post: PostI }>()
       </div>
     </div>
     <div class="card-body px-0 pt-3">
-      <h3 class="card-title">
+      <h3 class="card-title h6">
         <NuxtLink
           class="btn-link text-reset fw-bold"
           :href="

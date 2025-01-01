@@ -18,11 +18,11 @@ const getImageSrc = (item: PostI) =>
 <template>
   <div class="row">
     <div class="col-12 col-sm-6 col-lg-12">
-      <h4 class="mt-4 mb-3">
+      <h2 class="mt-4 mb-3 h4">
         <NuxtLink href="/Novini-partneriv" class="btn-link text-reset fw-bold">
           Новини партнерів
         </NuxtLink>
-      </h4>
+      </h2>
       <template v-for="item in partnerPosts" :key="item.id">
         <div class="card mb-3">
           <div class="row g-3">
@@ -36,14 +36,14 @@ const getImageSrc = (item: PostI) =>
               />
             </div>
             <div class="col-8">
-              <h6>
+              <h3 class="h6">
                 <NuxtLink
                   :href="'/Novini-partneriv/' + item.attributes.slug"
                   class="btn-link stretched-link text-reset fw-bold"
                 >
                   {{ item?.attributes.name }}
                 </NuxtLink>
-              </h6>
+              </h3>
               <div class="small mt-1">
                 {{
                   dayjs(item.attributes.publish_date).format("H:mm | DD MMMM ")

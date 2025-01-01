@@ -1,6 +1,6 @@
 <template>
   <div data-sticky data-margin-top="80" data-sticky-for="991">
-    <h4>Поширити</h4>
+    <h2 class="h4">Поширити</h2>
     <ul class="nav text-white-force">
       <li class="nav-item">
         <a
