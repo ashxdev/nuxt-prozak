@@ -28,6 +28,7 @@ const getImageSrc = (item: PostI) =>
           <div class="row g-3">
             <div class="col-4">
               <NuxtImg
+                loading="lazy"
                 format="webp"
                 class="rounded"
                 :src="getImageSrc(item)"
