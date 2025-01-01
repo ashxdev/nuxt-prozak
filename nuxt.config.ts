@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     asyncContext: true
   },
   pages: true,
+  routeRules: {
+    '/rss/feed/articles': { redirect: '/rss' },
+  },
   runtimeConfig: {
     strapi: {
       url: process.env.NUXT_STRAPI_DOCKER_URL || 'http://localhost:1337'
