@@ -49,7 +49,7 @@ useHead({
               <address>88000 Ужгород, Україна</address>
               <p>
                 Телефонуйте:&nbsp;
-                <a href="#" class="text-reset">
+                <a href="tel:+380953088778" class="text-reset">
                   <u>(+380) 95 308 8778</u>
                 </a>
               </p>

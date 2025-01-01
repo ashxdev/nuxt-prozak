@@ -47,7 +47,7 @@ const isShowMobileMenu = ref(false)
           show: isShowMobileMenu
         }"
       >
-        <ul class="navbar-nav navbar-nav-scroll mx-auto">
+        <ul class="navbar-nav navbar-nav-scroll mx-auto" id="megaMenu">
           <li class="nav-item">
             <NuxtLink class="nav-link" href="/"> Головна </NuxtLink>
           </li>

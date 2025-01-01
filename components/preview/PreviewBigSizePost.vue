@@ -28,19 +28,29 @@ const dayjs = useDayjs()
             post.attributes?.category?.data?.attributes.slug,
             'mb-2'
           ]"
-          :href="`/${post.attributes?.category?.data?.attributes.slug}/${props.post.attributes.slug}`"
+          :href="
+            '/' +
+            post.attributes?.category?.data?.attributes.slug +
+            '/' +
+            props.post.attributes.slug
+          "
         >
           <i class="bi bi-circle-fill me-2 small fw-bold"></i>
           {{ post.attributes?.category?.data?.attributes?.name }}
         </NuxtLink>
-        <h2 class="text-white h1">
+        <h1 class="text-white h1">
           <NuxtLink
             class="btn-link stretched-link text-reset"
-            :href="`/${post.attributes?.category?.data?.attributes.slug}/${props.post.attributes.slug}`"
+            :href="
+              '/' +
+              post.attributes?.category?.data?.attributes.slug +
+              '/' +
+              props.post.attributes.slug
+            "
           >
             {{ props.post.attributes.name }}
           </NuxtLink>
-        </h2>
+        </h1>
         <p class="text-white">{{ post.attributes.short_description }}</p>
         <ul
           class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block"

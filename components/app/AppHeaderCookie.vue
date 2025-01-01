@@ -50,6 +50,7 @@ const handleSetCookie = () => (isShowCookiePolice.value = "yes")
             cookie
           </NuxtLink>
           <button
+            type="button"
             @click="handleSetCookie"
             class="btn btn-xs btn-success ms-3 mb-0"
           >

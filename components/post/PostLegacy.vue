@@ -29,9 +29,9 @@ const getImageSrc = () =>
           >
             <div class="card-img-overlay d-flex align-items-center p-3 p-sm-4">
               <div class="w-100 my-auto">
-                <h2 class="text-white display-5">
+                <h1 class="text-white display-5">
                   {{ data?.attributes?.name }}
-                </h2>
+                </h1>
                 <ul
                   class="nav nav-divider text-white-force align-items-center justify-content-center"
                 >
@@ -59,7 +59,7 @@ const getImageSrc = () =>
               dayjs(data?.attributes?.publish_date).format("MMMM DD YYYY,H:mm")
             }}
           </span>
-          <h1>{{ data?.attributes?.name }}</h1>
+          <h2>{{ data?.attributes?.name }}</h2>
 
           <p class="card-text">
             {{

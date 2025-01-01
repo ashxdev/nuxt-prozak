@@ -20,7 +20,7 @@ const { getPostStyle } = usePostStyle()
       >
         <div class="p-3">
           <NuxtLink
-            :to="`/${item?.attributes.slug}`"
+            :to="'/' + item?.attributes.slug"
             class="stretched-link btn-link fw-bold text-white h5"
           >
             {{ item?.attributes.name }}

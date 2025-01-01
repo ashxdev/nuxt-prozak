@@ -1,69 +1,69 @@
 <template>
   <div class="row d-none">
-    <h5 class="mb-2 text-white">Hot topics</h5>
+    <h3 class="mb-2 text-white">Hot topics</h3>
     <ul class="list-inline text-primary-hover lh-lg">
       <li class="list-inline-item">
-        <a href="#">Covid-19</a>
+        <a href="/">Covid-19</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Politics</a>
+        <a href="/">Politics</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Entertainment</a>
+        <a href="/">Entertainment</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Media</a>
+        <a href="/">Media</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Royalist</a>
+        <a href="/">Royalist</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">World</a>
+        <a href="/">World</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Half Full</a>
+        <a href="/">Half Full</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Scouted</a>
+        <a href="/">Scouted</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Travel</a>
+        <a href="/">Travel</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Beast Inside</a>
+        <a href="/">Beast Inside</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Crossword</a>
+        <a href="/">Crossword</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Newsletters</a>
+        <a href="/">Newsletters</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Podcasts</a>
+        <a href="/">Podcasts</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Auction 2022</a>
+        <a href="/">Auction 2022</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Protests</a>
+        <a href="/">Protests</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">NewsCyber</a>
+        <a href="/">NewsCyber</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Education</a>
+        <a href="/">Education</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Sports</a>
+        <a href="/">Sports</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Tech And Auto</a>
+        <a href="/">Tech And Auto</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Opinion</a>
+        <a href="/">Opinion</a>
       </li>
       <li class="list-inline-item">
-        <a href="#">Share Market</a>
+        <a href="/">Share Market</a>
       </li>
     </ul>
   </div>

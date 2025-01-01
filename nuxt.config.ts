@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'ua',
+      },
       meta: [
         {
           name: "google-adsense-account",
@@ -33,6 +36,7 @@ export default defineNuxtConfig({
     '@nuxtjs/strapi',
     '@nuxt/image',
     '@nuxtjs/google-adsense',
+    '@nuxtjs/html-validator',
   ],
   strapi: {
     version: 'v4',
@@ -53,5 +57,32 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['~/assets/css/custom.css', '~/assets/css/bootstrap-icons/bootstrap-icons.css'],
+  htmlValidator: {
+    usePrettier: false,
+    logLevel: 'verbose',
+    failOnError: true,
+    /** A list of routes to ignore (that is, not check validity for). */
+    ignore: [/\.(xml|rss|json)$/],
+    options: {
+      extends: [
+        'html-validate:document',
+        'html-validate:recommended',
+        'html-validate:standard'
+      ],
+      rules: {
+        'svg-focusable': 'off',
+        'no-unknown-elements': 'error',
+        // Conflicts or not needed as we use prettier formatting
+        'void-style': 'off',
+        'no-trailing-whitespace': 'off',
+        // Conflict with Nuxt defaults
+        'require-sri': 'off',
+        'attribute-boolean-style': 'off',
+        'doctype-style': 'off',
+        // Unreasonable rule
+        'no-inline-style': 'off'
+      }
+    }
+  }
 
 })

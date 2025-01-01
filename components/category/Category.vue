@@ -60,7 +60,7 @@ const { postStyle } = usePostStyle(props.categorySlug)
                   <li class="page-item disabled">
                     <a
                       class="page-link"
-                      href="#"
+                      href="/"
                       tabIndex="{-1}"
                       aria-disabled="true"
                     >
@@ -68,19 +68,19 @@ const { postStyle } = usePostStyle(props.categorySlug)
                     </a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#"> 1 </a>
+                    <a class="page-link" href="/"> 1 </a>
                   </li>
                   <li class="page-item active">
-                    <a class="page-link" href="#"> 2 </a>
+                    <a class="page-link" href="/"> 2 </a>
                   </li>
                   <li class="page-item disabled">
-                    <a class="page-link" href="#"> .. </a>
+                    <a class="page-link" href="/"> .. </a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#"> 15 </a>
+                    <a class="page-link" href="/"> 15 </a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#"> Наступна </a>
+                    <a class="page-link" href="/"> Наступна </a>
                   </li>
                 </ul>
               </nav>

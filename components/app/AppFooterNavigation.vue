@@ -7,7 +7,7 @@ defineProps<{
 </script>
 <template>
   <div class="col-md-6 col-lg-3 mb-4">
-    <h5 class="mb-4 text-white">Навігація</h5>
+    <h3 class="mb-4 text-white">Навігація</h3>
     <div class="row">
       <div class="col-6">
         <ul class="nav flex-column text-primary-hover">
@@ -30,24 +30,24 @@ defineProps<{
       <div class="col-6 d-none">
         <ul class="nav flex-column text-primary-hover">
           <li class="nav-item">
-            <a class="nav-link pt-0" href="#"> Теги </a>
+            <a class="nav-link pt-0" href="/"> Теги </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/">
               Career <span class="badge bg-danger ms-2">2 Job</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Technology </a>
+            <a class="nav-link" href="/"> Technology </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Startups </a>
+            <a class="nav-link" href="/"> Startups </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Gadgets </a>
+            <a class="nav-link" href="/"> Gadgets </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Inspiration </a>
+            <a class="nav-link" href="/"> Inspiration </a>
           </li>
         </ul>
       </div>

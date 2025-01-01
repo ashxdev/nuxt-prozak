@@ -9,7 +9,7 @@ const dayjs = useDayjs()
 </script>
 <template>
   <div class="col-md-6 col-lg-3 mb-4">
-    <h5 class="mb-4 text-white">Останні новини</h5>
+    <h3 class="mb-4 text-white">Останні новини</h3>
     <template v-for="item in posts" :key="item.id">
       <div class="mb-4 position-relative">
         <div>

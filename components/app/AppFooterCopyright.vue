@@ -15,7 +15,7 @@
           class="col-md-6 d-sm-flex align-items-center justify-content-center justify-content-md-end"
         >
           <ul
-            class="nav text-primary-hover text-center text-sm-end justify-content-center justify-content-center mt-3 mt-md-0"
+            class="nav text-primary-hover text-center text-sm-end justify-content-center mt-3 mt-md-0"
           >
             <li class="nav-item">
               <NuxtLink class="nav-link" href="/contact-us">Контакти</NuxtLink>

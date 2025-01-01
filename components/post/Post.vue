@@ -41,9 +41,9 @@ const getImageSrc = () =>
                   <i class="bi bi-circle-fill me-2 small fw-bold"></i>
                   {{ post.attributes.category.data.attributes.name }}
                 </NuxtLink>
-                <h2 class="text-white display-5">
+                <h1 class="text-white display-5">
                   {{ post.attributes.name }}
-                </h2>
+                </h1>
                 <ul
                   class="nav nav-divider text-white-force align-items-center justify-content-center"
                 >
@@ -81,7 +81,7 @@ const getImageSrc = () =>
               dayjs(post.attributes.publish_date).format("MMMM DD YYYY,H:mm")
             }}
           </span>
-          <h1>{{ post.attributes.name }}</h1>
+          <h2>{{ post.attributes.name }}</h2>
 
           <p class="lead" v-html="post.attributes?.short_description"></p>
 

@@ -45,7 +45,7 @@ const fetchPosts = async () => {
   <li class="nav-item dropdown dropdown-fullwidth">
     <a
       class="nav-link dropdown-toggle"
-      :href="`/${props.category?.attributes?.slug}`"
+      :href="'/' + props.category?.attributes?.slug"
       @mouseenter="fetchPosts"
     >
       {{ props.category?.attributes.name }}
@@ -76,7 +76,12 @@ const fetchPosts = async () => {
               <div class="card bg-transparent">
                 <NuxtLink
                   class="text-reset btn-link"
-                  :href="`/${props.category?.attributes?.slug}/${item.attributes.slug}`"
+                  :href="
+                    '/' +
+                    props.category?.attributes?.slug +
+                    '/' +
+                    item.attributes.slug
+                  "
                 >
                   <NuxtImg
                     format="webp"
@@ -85,7 +90,7 @@ const fetchPosts = async () => {
                     :src="
                       item.attributes?.image?.data?.attributes?.formats
                         ?.thumbnail?.url ||
-                      `/images/blog/4by3/thumb/0${index + 1}.jpg`
+                      '/images/blog/4by3/thumb/0' + index + 1 + '.jpg'
                     "
                     :alt="item.attributes?.image?.data?.attributes?.name"
                   />
@@ -94,7 +99,12 @@ const fetchPosts = async () => {
                   <h6 class="card-title mb-0">
                     <NuxtLink
                       class="btn-link text-reset fw-bold"
-                      :href="`/${props.category?.attributes?.slug}/${item.attributes.slug}`"
+                      :href="
+                        '/' +
+                        props.category?.attributes?.slug +
+                        '/' +
+                        item.attributes.slug
+                      "
                     >
                       {{ item.attributes?.name }}
                     </NuxtLink>
@@ -105,7 +115,12 @@ const fetchPosts = async () => {
                     <li class="nav-item">
                       <NuxtLink
                         class="text-reset btn-link"
-                        :href="`/${props.category?.attributes?.slug}/${item.attributes.slug}`"
+                        :href="
+                          '/' +
+                          props.category?.attributes?.slug +
+                          '/' +
+                          item.attributes.slug
+                        "
                       >
                         {{
                           dayjs(item.attributes.publish_date).format(

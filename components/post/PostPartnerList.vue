@@ -38,7 +38,7 @@ const getImageSrc = (item: PostI) =>
             <div class="col-8">
               <h6>
                 <NuxtLink
-                  :href="`/Novini-partneriv/${item.attributes.slug}`"
+                  :href="'/Novini-partneriv/' + item.attributes.slug"
                   class="btn-link stretched-link text-reset fw-bold"
                 >
                   {{ item?.attributes.name }}

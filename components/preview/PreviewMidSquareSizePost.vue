@@ -36,7 +36,7 @@ const getImageSrc = (item: PostI) =>
         <div class="w-100 mt-auto">
           <NuxtLink
             :class="['badge', categorySlug, 'mb-2']"
-            :href="`/${categorySlug}/${post?.attributes.slug}`"
+            :href="'/' + categorySlug + '/' + post?.attributes.slug"
           >
             <i class="bi bi-circle-fill me-2 small fw-bold"></i>
             {{ categoryName }}
@@ -48,7 +48,7 @@ const getImageSrc = (item: PostI) =>
       <h4 class="card-title">
         <a
           class="btn-link text-reset fw-bold"
-          :href="`/${categorySlug}/${post?.attributes.slug}`"
+          :href="'/' + categorySlug + '/' + post?.attributes.slug"
         >
           {{ post.attributes.name }}
         </a>

@@ -122,7 +122,7 @@ const changeThemeMode = () => {
                 target="_blank"
                 class="nav-link px-2 fs-5"
                 href="https://www.facebook.com/prozak.info"
-              >
+                >facebook
                 <i class="bi bi-facebook"></i>
               </a>
             </li>
@@ -133,6 +133,7 @@ const changeThemeMode = () => {
                 class="nav-link px-2 fs-5"
                 href="https://www.youtube.com/channel/UCpDjC8hLsxO-AdW7neBV0yg"
               >
+                youtube
                 <i class="bi bi-youtube"></i>
               </a>
             </li>

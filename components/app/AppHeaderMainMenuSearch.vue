@@ -8,7 +8,7 @@ const isShowSearch = ref(false)
         @click="isShowSearch = !isShowSearch"
         class="nav-link dropdown-toggle"
         role="button"
-        href="#"
+        href="/"
         id="navSearch"
         aria-expanded="false"
         data-bs-toggle="dropdown"

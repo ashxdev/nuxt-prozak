@@ -5,7 +5,7 @@
       <li class="nav-item">
         <a
           class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-facebook"
-          href="#"
+          href="/"
         >
           <i class="bi bi-facebook align-middle"></i>
         </a>
@@ -13,7 +13,7 @@
       <li class="nav-item">
         <a
           class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-twitter"
-          href="#"
+          href="/"
         >
           <i class="fab fa-twitter-square align-middle"></i>
         </a>
@@ -21,7 +21,7 @@
       <li class="nav-item">
         <a
           class="nav-link icon-md rounded-circle me-2 mb-2 p-0 fs-5 bg-linkedin"
-          href="#"
+          href="/"
         >
           <i class="fab fa-linkedin align-middle"></i>
         </a>

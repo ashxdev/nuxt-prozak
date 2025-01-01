@@ -22,7 +22,12 @@ defineProps<{ post: PostI }>()
               post.attributes.category?.data.attributes.slug,
               'mb-2'
             ]"
-            :href="`/${post?.attributes.category?.data.attributes.slug}/${post?.attributes.slug}`"
+            :href="
+              '/' +
+              post?.attributes.category?.data.attributes.slug +
+              '/' +
+              post?.attributes.slug
+            "
           >
             <i class="bi bi-circle-fill me-2 small fw-bold"></i>
             {{ post?.attributes.category?.data.attributes.name }}
@@ -31,14 +36,19 @@ defineProps<{ post: PostI }>()
       </div>
     </div>
     <div class="card-body px-0 pt-3">
-      <h5 class="card-title">
+      <h3 class="card-title">
         <NuxtLink
           class="btn-link text-reset fw-bold"
-          :href="`/${post?.attributes.category?.data.attributes.slug}/${post?.attributes.slug}`"
+          :href="
+            '/' +
+            post?.attributes.category?.data.attributes.slug +
+            '/' +
+            post?.attributes.slug
+          "
         >
           {{ post?.attributes.name }}
         </NuxtLink>
-      </h5>
+      </h3>
     </div>
   </div>
 </template>

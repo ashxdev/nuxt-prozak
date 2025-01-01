@@ -17,7 +17,7 @@ defineProps<{
       >
         <h6 class="m-0 text-white">{{ item.attributes.name }}</h6>
         <NuxtLink
-          :href="`/${item.attributes.slug}`"
+          :href="'/' + item.attributes.slug"
           :class="['text-dark stretched-link mb-2', item.attributes.slug]"
         ></NuxtLink>
       </div>

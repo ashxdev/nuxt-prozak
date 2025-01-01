@@ -10,7 +10,7 @@ const { data: mainCategories } = useMainCategories()
       <div class="row">
         <div class="col-lg-9">
           <div class="mb-4">
-            <h2 class="m-0"><i class="bi bi-people me-2"></i>Суспільство</h2>
+            <h1 class="m-0"><i class="bi bi-people me-2"></i>Суспільство</h1>
             <p>Останні новини, рисунки, відео і чутки</p>
           </div>
           <div class="row gy-4">
@@ -36,7 +36,7 @@ const { data: mainCategories } = useMainCategories()
               </div>
               <div class="col-4">
                 <a
-                  href="#"
+                  href="/"
                   target="_blank"
                   class="bg-instagram-gradient rounded text-center text-white-force p-2 d-block"
                 >
