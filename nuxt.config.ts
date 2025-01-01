@@ -1,6 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
+  app: {
+    head: {
+      meta: [
+        {
+          name: "google-adsense-account",
+          content: "ca-pub-3297522505307737",
+        },
+      ],
+    },
+  },
   experimental: {
     asyncContext: true
   },
