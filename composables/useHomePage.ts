@@ -1,4 +1,4 @@
-import type { Homepage } from '@/types'
+import type { Homepage } from '~/types'
 export const useHomePage = () => {
     return useAsyncData('homePage', async () => {
         const { findOne } = useStrapi()

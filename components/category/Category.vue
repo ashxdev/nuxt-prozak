@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { PostI, CategoryI } from "@/types"
+import type { PostI, CategoryI } from "~/types"
 
 const props = defineProps<{
   partner: boolean

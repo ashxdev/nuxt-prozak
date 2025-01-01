@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { PostI } from "@/types"
+import type { PostI } from "~/types"
 
 const props = defineProps<{
   post: PostI

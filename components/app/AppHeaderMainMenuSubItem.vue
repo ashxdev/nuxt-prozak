@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { PostI, CategoryI, Homepage } from "@/types"
+import type { PostI, CategoryI, Homepage } from "~/types"
 
 const props = defineProps<{
   homepage: Homepage | null

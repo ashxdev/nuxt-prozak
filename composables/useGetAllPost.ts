@@ -1,4 +1,4 @@
-import type { PostI } from '@/types'
+import type { PostI } from '~/types'
 export const useGetAllPost = () => {
     return useAsyncData('getAllPost', async () => {
         const { find } = useStrapi()

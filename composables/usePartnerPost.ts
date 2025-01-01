@@ -1,4 +1,4 @@
-import type { PostI } from '@/types'
+import type { PostI } from '~/types'
 
 export const usePartnerPost = (postSlug: string) => {
     return useAsyncData('partnerPost', async () => {

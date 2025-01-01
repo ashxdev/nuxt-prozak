@@ -1,4 +1,4 @@
-import type { CategoryI } from '@/types'
+import type { CategoryI } from '~/types'
 
 export const useCategories = () => {
     return useAsyncData('categories', async () => {

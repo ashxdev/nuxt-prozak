@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { get } from "lodash-es"
-import type { PostI } from "@/types"
+import type { PostI } from "~/types"
 
 const props = defineProps<{
   partner: boolean

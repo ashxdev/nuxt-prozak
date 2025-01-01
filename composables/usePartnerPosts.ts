@@ -1,4 +1,4 @@
-import type { PostI } from '@/types'
+import type { PostI } from '~/types'
 
 export const usePartnerPosts = ({ pageSize = 6 }: { pageSize?: number } = { pageSize: 6 }) => {
     return useAsyncData('partnerPosts', async () => {

@@ -1,4 +1,4 @@
-import type { PostI } from "@/types"
+import type { PostI } from "~/types"
 
 export const useGetRecentPosts = () => {
     return useAsyncData('getRecentPosts', async () => {

@@ -1,4 +1,4 @@
-import type { PostI } from '@/types'
+import type { PostI } from '~/types'
 export const useSocialPosts = () => {
     return useAsyncData('socialPosts', async () => {
         const { find } = useStrapi()

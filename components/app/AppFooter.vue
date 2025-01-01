@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CategoryI, Homepage } from "@/types"
+import type { CategoryI, Homepage } from "~/types"
 
 defineProps<{
   homepage: Homepage | null
