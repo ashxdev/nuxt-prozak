@@ -25,9 +25,9 @@ useHead({
   <div class="container">
     <div class="border-bottom border-primary border-2 opacity-1"></div>
   </div>
-
-  <Adsbygoogle :style="{ display: 'block' }" ad-slot="3536841823" />
-
+  <div class="container">
+    <Adsbygoogle :style="{ display: 'block' }" ad-slot="3536841823" />
+  </div>
   <MainContent />
 
   <div class="container">
