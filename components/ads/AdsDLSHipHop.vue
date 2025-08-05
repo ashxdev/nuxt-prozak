@@ -1,6 +1,6 @@
 <template>
   <Video
-    src="https://minio-console.simplesolution.guru/api/v1/buckets/dance-line-studio/objects/download?preview=true&prefix=videos%2Fhip-hop-kids.mp4&version_id=null"
+    src="https://minio-console.dance-line.studio/api/v1/buckets/dance-line-studio/objects/download?preview=true&prefix=videos%2Fhip-hop-kids.mp4&version_id=null"
   />
   <a target="_blank" href="https://dance-line.studio/"
     ><h2 class="h4">Hip Hop - Dance Line Studio</h2></a
